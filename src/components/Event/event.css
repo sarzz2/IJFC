@@ -1,0 +1,27 @@
+.event-banner {
+  position: relative;
+  margin-top: 70px;
+}
+.event-banner img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.past-events {
+  padding: 10px;
+  margin: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #636060;
+  border-bottom: 1px solid #000;
+   padding-bottom: 3px;
+   border-bottom-style: solid;
+   width: fit-content;
+}
+
+.past-events-text{
+    margin: 20px;
+    margin-right: 70px;
+    float: left;
+}

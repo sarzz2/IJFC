@@ -1,8 +1,10 @@
 .about-banner{
     position: relative;
+    margin-top: 70px;
 }
 .about-banner img {
   width: 100%;
+  height: 100%;
   position: relative;
 }
 .banner-main {
@@ -13,7 +15,7 @@
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 3.5vh;
   line-height: 46px;
   letter-spacing: 0.15em;
 }
@@ -26,7 +28,7 @@
   font-family: "Arial Rounded MT Bold";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 3vh;
   line-height: 37px;
   letter-spacing: 0.02em;
   color: #FFFEFE;
@@ -41,7 +43,7 @@
   position: relative;
   width: 100%;
   height: 111px;
-  top: 20px;
+  top: 30px;
   font-family: "Arial Rounded MT Bold";
   font-style: normal;
   font-weight: 400;
@@ -57,7 +59,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 3em;
     line-height: 74px;
     letter-spacing: 0.15em;
     color: #E78B49;
@@ -72,7 +74,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 37px;
     text-align: center;
     color: #898383;
@@ -111,4 +113,36 @@
     margin-left: 20%;
     margin-top: 25%;
     margin-bottom: 25%;
+  }
+
+  @media screen and (max-width: 800px)
+  {
+    .banner-main{
+    top: 20%;
+    font-size: 1em;
+    line-height: normal;
+    letter-spacing: 0;
+      }
+
+      .banner-sub{
+      position: absolute;
+      padding: 0 30px;
+      width: 80%;
+      top: 50%;
+      font-family: "Arial Rounded MT Bold";
+      font-style: normal;
+      font-size: 0.75em;
+      line-height: normal; 
+      letter-spacing: 0;
+      color: #FFFEFE;
+      }
+      .column{
+          float: none;
+          height: auto;
+          width: auto;
+            }
+            .column img{
+                width: 80%;
+            }
+
   }

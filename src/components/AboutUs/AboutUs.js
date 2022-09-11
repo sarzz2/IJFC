@@ -11,12 +11,7 @@ import cultural_overlay from "../../img/cultural_overlay.png";
 
 
 import {
-  Box,
-  Grid,
   Typography,
-  CardMedia,
-  Button,
-  Container,
 } from "@mui/material";
 import "./AboutUs.css";
 
@@ -26,12 +21,12 @@ function AboutUs() {
       <Header />
       <div className="about-banner">
         <img src={image23} alt="about-banner" />
-        <p class="banner-main">
+        <p className="banner-main">
           A common voice for Indians and Japanese which help them articulate
           their issues and concerns and facilitate their integration and
           meaningful participation in the IJFC.
         </p>
-        <p class="banner-sub">
+        <p className="banner-sub">
           The India Japan Friendship Center (IJFC) is a registered non-profit
           charitable trust organization formed by people of India and IJFC in
           order to strengthen relations between IJFC and India. One of the main
@@ -58,7 +53,7 @@ function AboutUs() {
       </div>
 
       <div className="about-members">
-        <Typography variant="h1">Missions and Stakeholders</Typography>
+        <Typography variant="h1">Members and Stakeholders</Typography>
         <div className="row">
           <div className="column">
             <img src={lic} alt="Snow" />
