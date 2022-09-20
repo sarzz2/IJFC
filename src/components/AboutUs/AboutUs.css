@@ -1,8 +1,8 @@
-.about-banner{
+.banner{
     position: relative;
     margin-top: 70px;
 }
-.about-banner img {
+.banner img {
   width: 100%;
   height: 100%;
   position: relative;

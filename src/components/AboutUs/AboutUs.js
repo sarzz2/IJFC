@@ -19,8 +19,8 @@ function AboutUs() {
   return (
     <div className="about-main">
       <Header />
-      <div className="about-banner">
-        <img src={image23} alt="about-banner" />
+      <div className="banner">
+        <img src={image23} alt="banner" />
         <p className="banner-main">
           A common voice for Indians and Japanese which help them articulate
           their issues and concerns and facilitate their integration and
