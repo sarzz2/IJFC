@@ -7,24 +7,34 @@ import { slide as Menu } from "react-burger-menu";
 
 function Header() {
   const pathname = window.location.pathname;
-  var navLinkStyles = ({ isActive }) => {
-    return {
-      fontWeight: isActive ? "bold" : "normal",
-      color: isActive ? "black" : "black",
-      textDecoration: "none",
-    }
-  };
+
 
   return (
     <div>
       <Menu disableAutoFocus>
-        <Stack className="do-menu" direction="row" spacing={2}>
-          <Link to="/" style={{ navLinkStyles }}>
+        <Stack className="do-menu" direction="column" spacing={1}>
+          <Link to="/" style={{  }}>
             Home
           </Link>
+          <br></br>
 
           <Link className="" to="/about" style={{ textDecoration: "none" }}>
             About Us
+          </Link>
+          <br></br>
+
+          <Link to="/event" style={{ textDecoration: "none" }}>
+            Event
+          </Link>
+          <br></br>
+
+          <Link to="/gallery" style={{ textDecoration: "none" }}>
+            Gallery
+          </Link>
+          <br></br>
+
+          <Link to="/contact-us" style={{ textDecoration: "none" }}>
+            Contact Us
           </Link>
         </Stack>
       </Menu>
@@ -35,7 +45,7 @@ function Header() {
           Friendship Center
         </Typography>
         <Stack className="do-menu" direction="row" spacing={2}>
-          <Link to="/" style={{navLinkStyles}}>
+          <Link to="/" style={{textDecoration:"None" }}>
             Home
           </Link>
           <Link className="" to="/about" style={{ textDecoration: "none" }}>
