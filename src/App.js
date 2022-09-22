@@ -23,7 +23,7 @@ function App() {
     
     <div className="wrapper-main">
       <Header/>
-      <section class="wrapper-banner">
+      <section className="wrapper-banner">
         <img src={homeBanner} alt="home-banner"/>
         <p>Bringing the spirit of togetherness that has strong cultural links between communities for unity, peace and love</p>
       </section>
