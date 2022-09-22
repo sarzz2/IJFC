@@ -6,8 +6,8 @@ import lic from "../../img/lic.png";
 import bob from "../../img/bob.png";
 import tnid from "../../img/tnid.png";
 import welfare from "../../img/welfare.png";
-import cultural from "../../img/cultural.png";
-import cultural_overlay from "../../img/cultural_overlay.png";
+// import cultural from "../../img/cultural.png";
+// import cultural_overlay from "../../img/cultural_overlay.png";
 
 
 import {
@@ -19,6 +19,7 @@ function AboutUs() {
   return (
     <div className="about-main">
       <Header />
+      {/* Banner */}
       <div className="banner">
         <img src={image23} alt="banner" />
         <p className="banner-main">
@@ -51,7 +52,7 @@ function AboutUs() {
           and Dilkusha Home.
         </Typography>
       </div>
-
+      {/* Member logos */}
       <div className="about-members">
         <Typography variant="h1">Members and Stakeholders</Typography>
         <div className="row">

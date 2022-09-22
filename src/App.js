@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import Header from './components/Header/header.js';
 import Footer from './components/Footer/footer.js';
 import './App.css';
-import {Box,Grid, Typography,CardMedia,Button, Container} from '@mui/material'
+import {Box,Grid, Typography, Container} from '@mui/material'
 
-import React,{useContext} from 'react'
+import React from 'react'
 import homeBanner from './img/home-banner.png';
 import mission1 from './img/mission-1.png';
 import mission2 from './img/mission-2.png';
@@ -21,22 +20,6 @@ import bgAbout from './img/bg-about.png';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
     
     <div className="wrapper-main">
       <Header/>

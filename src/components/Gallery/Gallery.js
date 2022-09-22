@@ -8,12 +8,12 @@ import gallery3 from "../../img/gallery3.png";
 import gallery4 from "../../img/gallery4.png";
 
 import "./Gallery.css";
-import { Typography } from "@mui/material";
 
 function Gallery() {
   return (
     <div>
       <Header />
+      {/* Banner */}
       <div className="banner">
         <img src={gallery_banner} alt="banner" />
         <p className="gallery-banner-main">JOIN US WITH OUR BEST MOMENTS</p>
@@ -25,7 +25,7 @@ function Gallery() {
           gallery that you must see in your lifetime
         </p>
       </div>
-
+      {/* Gallery images */}
       <div className="cover">
         <div className="cover-image">
         <img src={gallery1} alt="gallery"></img>

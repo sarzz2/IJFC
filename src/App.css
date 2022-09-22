@@ -173,3 +173,16 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+
+@media screen and (max-width: 800px)
+{
+.wrapper-banner p {
+  position: absolute;
+  top: 10%;
+  color: #524b4ba3;
+  font-size: 15px;
+  padding: 0 30px;
+  letter-spacing: normal;
+}
+}
